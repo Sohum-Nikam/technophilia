@@ -4,18 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     
-    <div class="nav">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
+    
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+    
+          <a href="index.html" class="logo d-flex align-items-center me-auto">
+           
+            <h1 class="sitename">Gates N Fences</h1>
+            <span>.</span>
+          </a>
+    
+          <nav id="navmenu" class="navmenu">
+            <ul>
+              <li><a href="#hero" class="active">Home<br></a></li>
+              <li><a href="#about">Drive Gateways</a></li>
+              <li><a href="#services">Garden Gates</a></li>
+              <li><a href="#portfolio">Fancing</a></li>
+              <li><a href="#team">Raillings</a></li>
+              <li><a href="blog.html">Openers and Perators</a></li>
+              <li class="dropdown"><a href="#"><span>Drive Gatewars</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Modern Drive Gates</a></li>
+                  <li><a href="#">Dropdown 2</a></li>
+                  <li><a href="#">Dropdown 3</a></li>
+                  <li><a href="#">Dropdown 4</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
+    
+    
+        </div>
+      </header>
 
     <div id="main">
         <div id="cards">
